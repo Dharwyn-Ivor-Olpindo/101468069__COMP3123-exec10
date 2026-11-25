@@ -1,0 +1,96 @@
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #0f172a;
+  color: #f8fafc;
+  margin: 0;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #1e293b;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #334155;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-weight: 600;
+}
+
+input,
+select {
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #475569;
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+button {
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #3b82f6;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+.logout-btn {
+  background: #ef4444;
+}
+
+.logout-btn:hover {
+  background: #dc2626;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.token-box {
+  background: #0f172a;
+  padding: 0.8rem;
+  border-radius: 6px;
+  word-break: break-all;
+  font-family: monospace;
+  font-size: 0.9rem;
+}
+
+.jwt-header {
+  color: #f43f5e;
+}
+
+.jwt-payload {
+  color: #a855f7;
+}
+
+.jwt-sig {
+  color: #38bdf8;
+}
+
+pre,
+code {
+  background: #0f172a;
+  padding: 0.8rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  display: block;
+}
